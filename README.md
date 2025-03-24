@@ -29,25 +29,14 @@ cd ML-Anomaly-Detection
 pip install -r requirements.txt
 ```
 
-## Loading the Model
-Use the following code snippet in your script to load the trained model:
-
-```python
-import os
-import pickle
-
-model_path = os.path.join("model_artifact", "cnn_model.pkl")
-
-with open(model_path, "rb") as f:
-    cnn_model = pickle.load(f)
-
-print("Model loaded successfully!")
+## Using the Model
+To use the project run the following command:
+```bash
+streamlit run UI_start_app.py
 ```
 
 ## Making Predictions
-Once loaded, you can use the model to make predictions:
-```python
-predictions = cnn_model.predict(X_test)
-print("Predictions:", predictions)
-```
+Once loaded, you can use the model to make predictions by uploading a histopathology image.
+The model would predict if the image contains a tumor.
+
 
