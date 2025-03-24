@@ -11,6 +11,7 @@ The whole Jupyter Notebook is also provided (Anomaly_Detection.ipynb). It includ
 │   ├── cnn_model.pkl
 │── requirements.txt
 │── UI_start_app.py
+│── Anomaly_Detection.ipynb
 │── README.md
 ```
 
