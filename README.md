@@ -1,7 +1,4 @@
 # ML-Anomaly-Detection
-Machine Learning And Data Mining - Final Project
-
-# CNN Model Project
 
 This repository contains a trained Convolutional Neural Network (CNN) model saved as a pickle file inside the `model_artifact` folder. The model is ready for use and can be loaded on any machine using the provided instructions.
 
@@ -11,8 +8,7 @@ This repository contains a trained Convolutional Neural Network (CNN) model save
 │── model_artifact/
 │   ├── cnn_model.pkl
 │── requirements.txt
-│── your_script.py
-│── user_guide.txt
+│── UI_start_app.py
 │── README.md
 ```
 
@@ -24,8 +20,8 @@ Make sure you have **Python 3.8 or later** installed.
 ### Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/stefanivanov132/ML-Anomaly-Detection.git
+cd ML-Anomaly-Detection
 ```
 
 2. Install dependencies:
@@ -54,20 +50,4 @@ Once loaded, you can use the model to make predictions:
 predictions = cnn_model.predict(X_test)
 print("Predictions:", predictions)
 ```
-
-## Notes
-- Keep the `cnn_model.pkl` file inside the `model_artifact` folder.
-- If you encounter issues with missing dependencies, manually install them using `pip install package_name`.
-
-## License
-This project is licensed under the MIT License.
-
-## Author
-[Your Name](https://github.com/yourusername)
-
----
-
-For a complete guide, see `user_guide.txt` in the project root.
-
-Happy coding! ✨
 
