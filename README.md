@@ -2,9 +2,11 @@
 
 This repository contains a trained Convolutional Neural Network (CNN) model saved as a pickle file inside the `model_artifact` folder. The model is ready for use and can be loaded on any machine using the provided instructions.
 
+The whole Jupyter Notebook is also provided (Anomaly_Detection.ipynb). It includes the who EDA and the testing of different models to find the best one.
+
 ## Project Structure
 ```
-/project_directory/
+──AnomalyDetection
 │── model_artifact/
 │   ├── cnn_model.pkl
 │── requirements.txt
