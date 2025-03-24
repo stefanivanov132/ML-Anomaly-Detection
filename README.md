@@ -12,7 +12,7 @@ The whole Jupyter Notebook is also provided (Anomaly_Detection.ipynb). It includ
 │── requirements.txt
 │── UI_start_app.py
 │── Anomaly_Detection.ipynb
-│── README.md
+── README.md
 ```
 
 ## Getting Started
