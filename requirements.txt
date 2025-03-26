@@ -1,0 +1,12 @@
+collections
+datasets
+numpy
+matplotlib
+seaborn
+pandas
+scikit-learn
+joblib
+torch
+torchvision
+pillow
+streamlit
